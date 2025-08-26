@@ -1,73 +1,94 @@
-# Welcome to your Lovable project
+# 🌐 IoTWebService  
 
-## Project info
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge&logo=github" />
+  <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge&logo=open-source-initiative" />
+  <img src="https://img.shields.io/badge/Made%20With-❤️-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Build-React%20|%20TypeScript%20|%20Vite%20|%20Tailwind-blue?style=for-the-badge" />
+</p>
 
-**URL**: https://lovable.dev/projects/3c50252c-aa7a-4c7d-828e-3bbd4555e43f
+O **IoTWebService** é um kit de ferramentas moderno para desenvolvedores que desejam construir **aplicações web de IoT (Internet das Coisas)** com **alta performance** e **UI consistente**.  
+Ele combina **React**, **TypeScript**, **Vite** e **Tailwind CSS**, além de **componentes acessíveis via Radix UI e shadcn/ui**, criando a base perfeita para **dashboards IoT, painéis em tempo real e aplicações conectadas a dispositivos**.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 Demonstração
 
-**Use Lovable**
+👉 [Coloque aqui o link do deploy (Netlify/Vercel)]  
+📸 *(Se quiser, adicione prints de telas ou GIFs mostrando o projeto em ação.)*
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/3c50252c-aa7a-4c7d-828e-3bbd4555e43f) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## ✨ Funcionalidades principais
 
-**Use your preferred IDE**
+- 📦 **Componentes de UI reutilizáveis** otimizados para IoT.  
+- 🎨 **Design system consistente** (Radix UI + Tailwind + shadcn/ui).  
+- ⚡ **Hot Reload com Vite** para desenvolvimento instantâneo.  
+- 🔒 **Configuração TypeScript e ESLint** já integrada.  
+- 📊 **Pronto para integrações IoT** (ex: MQTT, WebSockets, APIs REST).  
+- 🌍 **Deploy fácil** em plataformas modernas como **Vercel, Netlify ou Docker**.  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🛠️ Tecnologias utilizadas  
 
-Follow these steps:
+<p align="center">
+  <!-- React -->
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="60" height="60" alt="React" />
+  <!-- TypeScript -->
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="60" height="60" alt="TypeScript" />
+  <!-- Vite -->
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vite/vite-original.svg" width="60" height="60" alt="Vite" />
+  <!-- TailwindCSS (logo oficial corrigido) -->
+  <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="60" height="60" alt="TailwindCSS" />
+  <!-- shadcn/ui (sem ícone oficial, usando avatar oficial do GitHub) -->
+  <img src="https://avatars.githubusercontent.com/u/139895814?s=200&v=4" width="60" height="60" alt="shadcn/ui" />
+  <!-- Radix UI (logo oficial do repositório) -->
+  <img src="https://avatars.githubusercontent.com/u/75042455?s=200&v=4" width="60" height="60" alt="Radix UI" />
+</p>
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+| Tecnologia | Descrição |
+|------------|------------|
+| ⚛️ **React** | Biblioteca para construção de interfaces modernas e reativas |
+| 📘 **TypeScript** | Superset do JavaScript com tipagem estática |
+| ⚡ **Vite** | Build tool ultrarrápida com Hot Reload |
+| 🎨 **Tailwind CSS** | Framework de utilitários CSS para estilização ágil |
+| 🪄 **shadcn/ui** | Coleção de componentes de UI modernos e acessíveis |
+| 🎯 **Radix UI** | Primitivas de UI acessíveis e de baixo nível |
+
+---
+
+## ⚙️ Como rodar localmente
+
+```bash
+# 1. Clone o repositório
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# 2. Acesse a pasta do projeto
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# 3. Instale as dependências
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 4. Inicie o servidor de desenvolvimento
 npm run dev
+
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📂 Estrutura básica do projeto
 
-**Use GitHub Codespaces**
+```plaintext
+├── src/              # Código-fonte principal
+│   ├── components/   # Componentes de UI reutilizáveis
+│   ├── pages/        # Páginas da aplicação
+│   ├── hooks/        # Custom Hooks
+│   ├── styles/       # Estilos globais e Tailwind
+│   └── main.tsx      # Ponto de entrada da aplicação
+├── public/           # Arquivos estáticos
+├── index.html        # HTML principal
+├── tsconfig.json     # Configuração TypeScript
+├── vite.config.ts    # Configuração do Vite
+└── package.json      # Dependências e scripts
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/3c50252c-aa7a-4c7d-828e-3bbd4555e43f) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
