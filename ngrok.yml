@@ -1,0 +1,7 @@
+version: "2"
+authtoken: 31qJ6sCVzRpUVLXKG7X9zYAOBlG_dt6qdggvLwQdbsczFfgo # Adicione seu token aqui se tiver uma conta ngrok
+tunnels:
+  web:
+    addr: 2730
+    proto: http
+    subdomain: # Opcional: adicione um subdomínio personalizado se tiver conta paga

@@ -58,8 +58,8 @@ const contactInfos: ContactInfo[] = [
   {
     icon: Mail,
     title: 'Email',
-    description: 'contato@aiotsolution.com',
-    action: 'mailto:contato@aiotsolution.com',
+    description: 'pedrohenrique@aiotsolution.com',
+    action: 'mailto:pedrohenrique@aiotsolution.com',
     color: 'primary',
   },
   {
